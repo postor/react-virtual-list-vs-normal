@@ -15,7 +15,7 @@ http://localhost:3000/list-normal
 
 ![screenshot](./static/images/normal-scroll.gif)
 
-http://localhost:3000/list-normal
+http://localhost:3000/list-virtual
 
 ![screenshot](./static/images/virtual-scroll.gif)
 
@@ -26,7 +26,7 @@ http://localhost:3000/list-normal
 
 ![screenshot](./static/images/normal-resize.gif)
 
-http://localhost:3000/list-normal
+http://localhost:3000/list-virtual
 
 ![screenshot](./static/images/virtual-resize.gif)
 
@@ -37,7 +37,8 @@ http://localhost:3000/list-normal-huge-item
 
 ![screenshot](./static/images/normal-scroll-huge-item.gif)
 
-http://localhost:3000/list-normal
+http://localhost:3000/list-virtual-huge-item
+
 
 ![screenshot](./static/images/virtual-scroll-huge-item.gif)
 
