@@ -1,19 +1,19 @@
-import Item from '../components/Item'
+import { getList, smallItemListSize } from '../common'
 
-export default ()=>{
-  if(typeof window ==='undefined'){
-    return (<span/>)
+export default () => {
+  if (typeof window === 'undefined') {
+    return (<span />)
   }
-  const arr =  Array.apply(null, {length: 10000}).map(Number.call, Number)
-  return (<div style={{height:'600px',overflowX:'hidden',overflowY:'scroll'}}>
-    {arr.map((x,i)=>(<div style={
+  const arr = getList(smallItemListSize)
+  return (<div style={{ height: '600px', overflowX: 'hidden', overflowY: 'scroll' }}>
+    {arr.map((x, i) => (<div style={
       {
-        height:'42px',
+        height: '42px',
         overflow: 'hidden',
       }
     } key={i}>
       值为{x}，这是第{i}个li
-      
+
     </div>))}
   </div>)
 }
